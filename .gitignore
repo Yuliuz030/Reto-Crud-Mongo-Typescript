@@ -1,0 +1,5 @@
+node_modules
+.env
+images
+config.ts
+serviceAccountKey.json
