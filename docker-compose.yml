@@ -9,8 +9,6 @@ services:
           - "4000:3060"
         links:
           - mongo
-        volumes:
-            .:/test/app
 
     mongo:
         container_name: mongoDB
